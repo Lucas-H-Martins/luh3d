@@ -30,3 +30,6 @@ asdf:
 swap: ## Configura memória swap de 32GB
 	@echo "Configurando memória swap de 32GB..."
 	@bash swap.sh
+aws: ## Instala o AWS CLI v2
+	@echo "Instalando AWS CLI v2..."
+	@bash install_aws_cli.sh
